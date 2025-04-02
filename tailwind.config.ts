@@ -15,10 +15,11 @@ const tailwindConfig = {
           "200": "#1B2740",
         },
       },
-      backgroundImage:{
-        "home-hero": "url('')"
-      }
+      backgroundImage: {
+        "home-hero": "url('/assets/skates-hero.png')",
+      },
     },
   },
+  plugins: [],
 };
 export default tailwindConfig;
