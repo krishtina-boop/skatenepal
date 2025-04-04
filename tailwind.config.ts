@@ -18,6 +18,7 @@ const tailwindConfig = {
       },
       backgroundImage: {
         "home-hero": "url('/assets/skates-hero.png')",
+        "home-explore": "url('/assets/explore.png')",
       },
     },
   },
