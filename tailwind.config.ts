@@ -7,6 +7,7 @@ const tailwindConfig = {
   theme: {
     extend: {
       colors: {
+        body: "#E6EAEF",
         primary: {
           "50": "#FBC2B2",
           "100": "#F02C2B",
