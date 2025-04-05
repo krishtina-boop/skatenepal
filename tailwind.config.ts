@@ -15,10 +15,31 @@ const tailwindConfig = {
         secondary: {
           "200": "#1B2740",
         },
+        gray: {
+          "50": "#C1C7CB",
+          "100": "#B0B1BB",
+          "200": "#788390",
+          "300": "#5F5F66",
+          "400": "#393C45",
+          "500": "16181E",
+        },
+        hover: {
+          "100": "#CB2322",
+        },
       },
       backgroundImage: {
         "home-hero": "url('/assets/skates-hero.png')",
         "home-explore": "url('/assets/explore.png')",
+        "home-discover": "url('/assets/discover-image.png')",
+      },
+      fontFamily: {
+        worksans: ['"WorkSans","sans-serif"'],
+      },
+      fontSize: {
+        "header-lg": ["70px", { fontWeight: "bold" }, { fontStyle: "italic" }],
+        "header-sm": ["56px", { fontWeight: "bold" }, { fontStyle: "italic" }],
+        "text-lg": ["18px"],
+        "text-sm": ["16px"],
       },
     },
   },

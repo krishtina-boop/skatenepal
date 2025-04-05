@@ -7,17 +7,17 @@ export default function ExploreSection() {
             {/* <div className="font-serif text-gray-500 text-sm mb-[20px]">
               Discover the latest Inline Skates
             </div> */}
-            <div className="font-serif text-white font-bold text-4xl italic mb-[19px]">
+            <div className="font-serif text-white font-bold text-header-lg italic mb-[19px]">
               <h2>Explore</h2>
               <h2>Our Skate</h2>
             </div>
             <div className="mb-[54px]">
-              <p className="text-white">
+              <p className="text-gray-50  text-text-sm">
                 Find the Perfect Inline Skates and Accessories <br /> to Suit
                 Your Needs
               </p>
             </div>
-            <button className="pt-[13px] pl-[43px] pr-[45px] pb-[13px] rounded-xl bg-red-600 text-white">
+            <button className="pt-[13px]  hover:bg-hover-100 pl-[43px] pr-[45px] pb-[13px] rounded-xl bg-primary-100 text-primary-50">
               Learn More
             </button>
           </div>
