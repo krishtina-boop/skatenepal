@@ -1,7 +1,7 @@
 export default function DiscoverSection() {
   return (
-    <div className="main-parent w-full top-0 pt-0">
-      <div className="image-container top-0 flex items-center justify-center bg-home-discover bg-cover bg-no-repeat bg-center  h-screen">
+    <div className="main-parent w-full top-0 pt-0 ">
+      <div className="image-container  top-0 flex items-center justify-center bg-home-discover bg-cover bg-no-repeat bg-center  h-screen">
         <div className="text-container z-10 container flex items-center justify-start">
           <div className="information">
             <div className=" text-gray-100 text-lg mb-[20px]">

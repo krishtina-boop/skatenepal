@@ -8,14 +8,14 @@ import NavSection from "@/components/homepage/nav-section";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <NavSection />
       <HeroSection />
       <AboutSection />
       <ExploreSection />
-      <CollectionSection/>
-      <DiscoverSection/>
-      <FooterSection/>
-    </div>
+      <CollectionSection />
+      <DiscoverSection />
+      <FooterSection />
+    </>
   );
 }

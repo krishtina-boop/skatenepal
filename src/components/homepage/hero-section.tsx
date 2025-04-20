@@ -13,8 +13,8 @@ export default function HeroSection() {
                 of Inline
               </h2>
             </div>
-            <div className="mb-[54px]">
-              <p className="text-gray-400 text-lg">
+            <div className="mb-12">
+              <p className="text-white text-sm lg:text-lg">
                 Elevate Your Skating Experience with Our Diverse <br />
                 Collection of Inline Skates and Accessories
               </p>

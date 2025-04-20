@@ -9,7 +9,7 @@ const tailwindConfig = {
       colors: {
         body: "#E6EAEF",
         primary: {
-          "50": "#FBC2B2",
+          "50": "#deeaf4",
           "100": "#F02C2B",
         },
         secondary: {
@@ -21,7 +21,7 @@ const tailwindConfig = {
           "200": "#788390",
           "300": "#5F5F66",
           "400": "#393C45",
-          "500": "16181E",
+          "500": "#16181E",
         },
         hover: {
           "100": "#CB2322",
@@ -31,6 +31,7 @@ const tailwindConfig = {
         "home-hero": "url('/assets/skates-hero.png')",
         "home-explore": "url('/assets/explore.png')",
         "home-discover": "url('/assets/discover-image.png')",
+        "nav-gradient": "linear-gradient(to right, #21344B, #C73E4D)",
       },
       fontFamily: {
         worksans: ['"WorkSans","sans-serif"'],

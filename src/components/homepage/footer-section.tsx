@@ -2,7 +2,7 @@ export default function FooterSection() {
   return (
     <div className="bg-secondary-200  p-24">
       <div className="container ml-auto mr-auto">
-        <div className=" grid gap-4 lg:grid-cols-4">
+        <div className=" grid gap-20 md:gap-4 grid-cols-2  md:grid-cols-4">
           <div className="flex flex-col items-center justify-center">
             <div>
               <svg

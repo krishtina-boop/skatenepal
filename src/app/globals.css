@@ -18,9 +18,40 @@
 }
 * {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-ring {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d1d5db;
+}
+.custom-checkbox-box {
+  fill: white;
+  stroke: #d1d5db;
+  border-color: #d1d5db;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  transition: stroke-dashoffset 0.3s ease-in;
+}
+.custom-checkbox-tick {
+  stroke: white;
+  stroke-dasharray: 172;
+  stroke-dashoffset: 172;
+  transition: stroke-dashoffset 0.3s ease-in;
+}
+.custom-checkbox-ticked {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.3s ease-in;
+}
+.custom-checkbox:checked + label .custom-checkbox-tick {
+  stroke-dashoffset: 0;
+}
+.custom-checkbox:checked + label .custom-checkbox-box {
+  fill: #ff3d6b;
 }

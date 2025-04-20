@@ -1,40 +1,21 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <div className="bg-body mt-[34px] p-24">
+    <div className="bg-body p-20" id="about">
       <div className="container ml-auto mr-auto ">
         <div className="text-center">
-          <h1 className="italic  mb-[51px] text-header-sm">
+          <h1 className="italic mb-12 text-gray-500 text-header-sm">
             About Inline Skates
           </h1>
         </div>
         <div className=" grid gap-4 lg:grid-cols-3">
           <div>
-            <div className="">
-              <Image
-                src="/assets/image1.png"
-                alt="shoe"
-                width={389}
-                height={346}
-              />
+            <div>
+              <h2 className="text-gray-500">
+                This is about inline skate section
+              </h2>
             </div>
-          </div>
-          <div className="">
-            <Image
-              src="/assets/image2.png"
-              alt="shoe"
-              width={389}
-              height={346}
-            />
-          </div>
-          <div className="">
-            <Image
-              src="/assets/image3.png"
-              alt="shoe"
-              width={389}
-              height={346}
-            />
           </div>
         </div>
       </div>
