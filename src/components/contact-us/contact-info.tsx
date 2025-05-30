@@ -2,6 +2,7 @@
 import { CONTACT_DETAILS as data } from "@/lib/constants";
 
 import icons from "@/components/icons/icons";
+import Link from "next/link";
 
 export default async function ContactInfo() {
   //   const data = (await getGeneralContent()).data.contactUs;
@@ -49,17 +50,34 @@ export default async function ContactInfo() {
             </p>
           </div>
         </div>
-        <div className="flex gap-6">
-          <span>{icons.office}</span>
-          <div className="space-y-1">
-            <h6 className="text-header4-sm font-semibold lg:text-header4-lg lg:font-bold">
-              Head Office
-            </h6>
-            <p className="text-paragraph-sm lg:text-paragraph-lg">
-              {data.headOffice}
-            </p>
+        <Link href={data.facebook || "https://www.facebook.com/SkatingNepal"}>
+          <div className="flex gap-6">
+            <span>{icons.facebook}</span>
+            <div className="space-y-1">
+              <h6 className="text-header4-sm font-semibold lg:text-header4-lg lg:font-bold">
+                Facebook
+              </h6>
+              <p className="text-paragraph-sm lg:text-paragraph-lg">
+                {data.facebook || "https://www.facebook.com/SkatingNepal"}
+              </p>
+            </div>
           </div>
-        </div>
+        </Link>
+        <Link
+          href={data.instagram || "https://www.instagram.com/skatingnepal/"}
+        >
+          <div className="flex gap-6">
+            <span>{icons.instagram}</span>
+            <div className="space-y-1">
+              <h6 className="text-header4-sm font-semibold lg:text-header4-lg lg:font-bold">
+                Instagram
+              </h6>
+              <p className="text-paragraph-sm lg:text-paragraph-lg">
+                {data.instagram || "https://www.instagram.com/skatingnepal/"}
+              </p>
+            </div>
+          </div>
+        </Link>
       </div>
     </aside>
   );

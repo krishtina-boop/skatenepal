@@ -25,7 +25,7 @@ export default function NavSection() {
         <div className="flex">
           <ul className="flex gap-8 items-center text-gray-500">
             <li>
-              <a href="#">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="/#about">About</Link>

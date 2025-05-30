@@ -1,4 +1,8 @@
+import { Facebook, Instagram } from "lucide-react";
+
 const icons = {
+  facebook: <Facebook />,
+  instagram: <Instagram />,
   location: (
     <svg
       width="32"
